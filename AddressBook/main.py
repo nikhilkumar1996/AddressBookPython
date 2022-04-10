@@ -3,7 +3,7 @@ from CURD_Operations import Book, json
 book = Book(r"PhoneBook.json")
 while True:
     option = int(input("Enter Value:\n1.Display Data\n2.Add Data\n3.Update data\n4.Delete Data"
-                       "\n5.Exit to make changes\n" ))
+                       "\n5.Exit to make changes\n"))
     if option == 1:
         book.display()
     if option == 2:
